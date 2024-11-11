@@ -81,7 +81,8 @@ Due to resource constraints, the results presented are based on **0.8% of the or
 
 | Model      | Accuracy | Diagrams                                                   |
 |------------|----------|------------------------------------------------------------|
-| **LSTM**   | 0.7294   | ![LSTM Diagram](Medias/LSTM_Model.png), ![LSTM CMD](Medias/LSTM.png) |
+| **LSTM**   | 0.7294   | ![LSTM Diagram](Medias/LSTM_Model.png), ![LSTM CMD](Medias/LSTM.png) <img src="Medias/LSTM_Model.png" alt="LSTM Diagram" style="width: 50%; height: auto;">
+|
 | **GRU**    | 0.7421   | ![GRU Diagram](Medias/GRU_Model.png), ![GRU CMD](Medias/GRU.png) |
 | **CNN-LSTM** | 0.6589 | ![CNN-LSTM Diagram](Medias/CNN+LSTM_model.png), ![CNN-LSTM CMD](Medias/CNN+LSTM.png) |
 | **BiLSTM** | 0.7642   | ![BiLSTM Diagram](Medias/BiLSTM_Model.png), ![BiLSTM CMD](Medias/BiLSTM.png) |
