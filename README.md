@@ -5,6 +5,10 @@
 ![GitHub stars](https://img.shields.io/github/stars/mehrdadmb2/IntrusionDetectionModels?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/mehrdadmb2/IntrusionDetectionModels?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/mehrdadmb2/IntrusionDetectionModels)
+![GitHub contributors](https://img.shields.io/github/contributors/mehrdadmb2/IntrusionDetectionModels)
+![GitHub last commit](https://img.shields.io/github/last-commit/mehrdadmb2/IntrusionDetectionModels)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/mehrdadmb2/IntrusionDetectionModels)
+![GitHub repo size](https://img.shields.io/github/repo-size/mehrdadmb2/IntrusionDetectionModels)
 
 ---
 
@@ -30,6 +34,9 @@ These models are applied to time-series data, with steps for extracting, preproc
 ---
 
 ## 📦 Installation
+
+![Python version](https://img.shields.io/badge/python-3.12-blue)
+![Platform](https://img.shields.io/badge/platform-windows%20%7C%20linux-blue)
 
 ### Step-by-Step Setup:
 
@@ -79,13 +86,6 @@ python intrusion_detection.py
 
 Due to resource constraints, the results presented are based on **0.8% of the original dataset**, randomly sampled. These results give an indicative performance overview but may not represent full-scale accuracy.
 
-<!--| Model      | Accuracy | Diagrams                                                   |
-|------------|----------|------------------------------------------------------------|
-| **LSTM**   | 0.7294   | ![LSTM Diagram](Medias/LSTM_Model.png), ![LSTM CMD](Medias/LSTM.png) |
-| **GRU**    | 0.7421   | ![GRU Diagram](Medias/GRU_Model.png), ![GRU CMD](Medias/GRU.png) |
-| **CNN-LSTM** | 0.6589 | ![CNN-LSTM Diagram](Medias/CNN+LSTM_model.png), ![CNN-LSTM CMD](Medias/CNN+LSTM.png) |
-| **BiLSTM** | 0.7642   | ![BiLSTM Diagram](Medias/BiLSTM_Model.png), ![BiLSTM CMD](Medias/BiLSTM.png) |-->
-
 | Model      | Accuracy | Diagrams                                                   |
 |------------|----------|------------------------------------------------------------|
 | **LSTM**   | 0.7294   | <img src="Medias/LSTM_Model.png" alt="LSTM Diagram" style="width: 50%; height: auto;">, <img src="Medias/LSTM.png" alt="LSTM Diagram" style="width: 50%; height: auto;"> |
@@ -117,6 +117,8 @@ The project includes the following helper functions:
 
 ## 📄 License
 
+![MIT License](https://img.shields.io/github/license/mehrdadmb2/IntrusionDetectionModels?style=flat-square)
+
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## 🙋 Support
@@ -130,3 +132,4 @@ For any issues or questions, please open an [issue](https://github.com/mehrdadmb
 Special thanks to [Mehrdad](https://github.com/mehrdadmb2) for developing this project and sharing it with the community!
 
 ---
+```
