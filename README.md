@@ -79,13 +79,19 @@ python intrusion_detection.py
 
 Due to resource constraints, the results presented are based on **0.8% of the original dataset**, randomly sampled. These results give an indicative performance overview but may not represent full-scale accuracy.
 
-| Model      | Accuracy | Diagrams                                                   |
+<!--| Model      | Accuracy | Diagrams                                                   |
 |------------|----------|------------------------------------------------------------|
-| **LSTM**   | 0.7294   | ![LSTM Diagram](Medias/LSTM_Model.png), ![LSTM CMD](Medias/LSTM.png) <img src="Medias/LSTM_Model.png" alt="LSTM Diagram" style="width: 50%; height: auto;">
-|
+| **LSTM**   | 0.7294   | ![LSTM Diagram](Medias/LSTM_Model.png), ![LSTM CMD](Medias/LSTM.png) |
 | **GRU**    | 0.7421   | ![GRU Diagram](Medias/GRU_Model.png), ![GRU CMD](Medias/GRU.png) |
 | **CNN-LSTM** | 0.6589 | ![CNN-LSTM Diagram](Medias/CNN+LSTM_model.png), ![CNN-LSTM CMD](Medias/CNN+LSTM.png) |
-| **BiLSTM** | 0.7642   | ![BiLSTM Diagram](Medias/BiLSTM_Model.png), ![BiLSTM CMD](Medias/BiLSTM.png) |
+| **BiLSTM** | 0.7642   | ![BiLSTM Diagram](Medias/BiLSTM_Model.png), ![BiLSTM CMD](Medias/BiLSTM.png) |-->
+
+| Model      | Accuracy | Diagrams                                                   |
+|------------|----------|------------------------------------------------------------|
+| **LSTM**   | 0.7294   | <img src="Medias/LSTM_Model.png" alt="LSTM Diagram" style="width: 50%; height: auto;">, <img src="Medias/LSTM.png" alt="LSTM Diagram" style="width: 50%; height: auto;"> |
+| **GRU**    | 0.7421   | <img src="Medias/GRU_Model.png" alt="LSTM Diagram" style="width: 50%; height: auto;">, <img src="Medias/GRU.png" alt="LSTM Diagram" style="width: 50%; height: auto;"> |
+| **CNN-LSTM** | 0.6589 | <img src="Medias/CNN+LSTM_model.png" alt="LSTM Diagram" style="width: 50%; height: auto;">, <img src="Medias/CNN+LSTM.png" alt="LSTM Diagram" style="width: 50%; height: auto;"> |
+| **BiLSTM** | 0.7642   | <img src="Medias/BiLSTM_Model.png" alt="LSTM Diagram" style="width: 50%; height: auto;">, <img src="Medias/BiLSTM.png" alt="LSTM Diagram" style="width: 50%; height: auto;"> |
 
 ### Model Comparison
 The models reveal the following insights:
